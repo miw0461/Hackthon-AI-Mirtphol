@@ -1,18 +1,24 @@
 # hackthon-mirtphol 🚀
 เป็นการออกแบบ AI วิเคราะห็ราคาน้ำตาลล่วงหน้า 1 ปี
+- เริ่มเเรก หากยังไม่มี pip ต้องติดตั้งก่อน
+  ```bash
+    python -m pip install --upgrade pip
 
 ## Code & Output ✨
   ### ver.1
   ใช้ Model Random Forest Tree ในการทำตัว AI
   - code : hackthon.py
-  - import สิ่งที่ต้องใช้ 
+  - import สิ่งที่ต้องใช้
     ```bash
-    import pandas as pd
-    import numpy as np
-    from sklearn.model_selection import train_test_split
-    from sklearn.ensemble import RandomForestRegressor
-    from sklearn.metrics import mean_squared_error
-    import matplotlib.pyplot as plt
+      pip install pandas numpy scikit-learn matplotlib
+  - import
+    ```bash
+      import pandas as pd
+      import numpy as np
+      from sklearn.model_selection import train_test_split
+      from sklearn.ensemble import RandomForestRegressor
+      from sklearn.metrics import mean_squared_error
+      import matplotlib.pyplot as plt
   - เรียกใช้ load data.csv 
     ```bash
     # Load data
@@ -122,7 +128,11 @@
 ## Code & Output ✨
   ### Ver.2
   - Code : test2.py
-    ```bash
+  -  install เพิ่มเติม
+      ```bash
+      pip install statsmodels
+  -  import สิ่งที่ต้องใช้
+     ```bash
       import pandas as pd
       import numpy as np
       import matplotlib.pyplot as plt
