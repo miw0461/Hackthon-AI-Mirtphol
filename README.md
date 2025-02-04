@@ -68,7 +68,7 @@
     print(f"RMSE: {rmse}")
     
   - Predict future sugar prices for the next 365 days
-    # Start with the last available data
+     Start with the last available data
     ```bash
     current_data = X_test.iloc[-1].values.reshape(1, -1)
     current_data = pd.DataFrame(current_data, columns=X_train.columns)  # Add feature names
