@@ -120,7 +120,7 @@
   - ![image](https://github.com/user-attachments/assets/0046a6ae-83f6-4e9c-917b-e38de6914415)
 
 ## Code & Output ✨
-  ###Ver.2
+  ### Ver.2
   - Code : test2.py
     ```bash
       import pandas as pd
